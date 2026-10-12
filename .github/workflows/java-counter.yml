@@ -1,0 +1,76 @@
+
+name: Update Java Programs Counter
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**/*.java'
+      - '.github/workflows/java-counter.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-counter:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Count Java files and update README
+        run: |
+          python3 <<'PY'
+          import pathlib
+          import subprocess
+
+          readme = pathlib.Path("README.md")
+
+          files = subprocess.check_output(
+              ["git", "ls-files", "--cached", "--others",
+               "--exclude-standard", "--", "*.java", "**/*.java"],
+              text=True
+          ).splitlines()
+
+          count = len(set(files))
+
+          start = "<!-- JAVA_COUNTER_START -->"
+          end = "<!-- JAVA_COUNTER_END -->"
+
+          content = readme.read_text()
+
+          if start not in content or end not in content:
+              raise SystemExit("Java counter markers missing in README.md")
+
+          before, rest = content.split(start, 1)
+          _, after = rest.split(end, 1)
+
+          counter = f"""
+          <p align="center">
+            <img src="https://img.shields.io/badge/Java_Programs-{count}-orange?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java Programs: {count}"/>
+          </p>
+
+          <p align="center">
+            <b>{count} Java source files tracked in this repository</b>
+          </p>
+          """
+
+          readme.write_text(
+              before + start + "\n" + counter + "\n" + end + after
+          )
+
+          print(f"Java files counted: {count}")
+          PY
+
+      - name: Commit updated README
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || (
+            git commit -m "chore: update Java programs counter" &&
+            git push
+          )

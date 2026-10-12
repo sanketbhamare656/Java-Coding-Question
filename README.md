@@ -28,6 +28,17 @@ This repository documents my progress from beginner-level programs to advanced p
 </p>
 
 
+## ☕ Java Coding Progress
+
+<!-- JAVA_COUNTER_START -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Java_Programs-0-orange?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java Programs"/>
+</p>
+<!-- JAVA_COUNTER_END -->
+
+> 🚀 One program at a time. Improving my Java skills every day!
+
+
 ## 🎯 My Mission
 
 - 💻 Solve at least one Java coding problem every day.
