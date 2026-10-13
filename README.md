@@ -63,27 +63,25 @@ This repository documents my progress from beginner-level programs to advanced p
 
 #### 01. Getting Started with Java
 - [x] Hello World
-- [ ] Print personal details
-- [ ] Variables and data types
-- [ ] User input using Scanner
-- [ ] Arithmetic operations
-
-#### 02. Number-Based Programs — Top 15
 - [ ] 01. Even or Odd Number
 - [ ] 02. Positive, Negative or Zero
 - [ ] 03. Largest of Three Numbers
-- [ ] 04. Sum of N Natural Numbers
-- [ ] 05. Reverse a Number
-- [ ] 06. Palindrome Number
-- [ ] 07. Count Digits in a Number
-- [ ] 08. Sum of Digits
-- [ ] 09. Factorial of a Number
+
+#### 02. Number-Based Programs — Top 15
+- [x] 01. Return Last Digit
+- [x] 02. Remove Last Digit
+- [x] 03. Count Digits in a Number
+- [x] 04. Sum of Digits 
+- [x] 05. Product of Digits
+- [x] 06. Reverse The Number
+- [x] 07. Palindrome Number
 - [ ] 10. Prime Number
 - [ ] 11. Fibonacci Series
 - [ ] 12. Armstrong Number
 - [ ] 13. Perfect Number
 - [ ] 14. Find Factors of a Number
 - [ ] 15. GCD and LCM of Two Numbers
+
 
 #### 03. Array Programming
 
