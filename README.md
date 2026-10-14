@@ -63,9 +63,9 @@ This repository documents my progress from beginner-level programs to advanced p
 
 #### 01. Getting Started with Java
 - [x] Hello World
-- [ ] 01. Even or Odd Number
-- [ ] 02. Positive, Negative or Zero
-- [ ] 03. Largest of Three Numbers
+- [x] 01. Even or Odd Number
+- [x] 02. Positive, Negative or Zero
+- [x] 03. Largest of Three Numbers
 
 #### 02. Number-Based Programs — Top 15
 - [x] 01. Return Last Digit
