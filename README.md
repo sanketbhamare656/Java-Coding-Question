@@ -19,11 +19,11 @@ This repository documents my progress from beginner-level programs to advanced p
 <!-- JAVA_COUNTER_START -->
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Java_Programs-13-orange?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java Programs: 13"/>
+  <img src="https://img.shields.io/badge/Java_Programs-14-orange?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java Programs: 14"/>
 </p>
 
 <p align="center">
-  <b>13 Java source files tracked in this repository</b>
+  <b>14 Java source files tracked in this repository</b>
 </p>
 
 <!-- JAVA_COUNTER_END -->
