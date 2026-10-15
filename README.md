@@ -13,20 +13,6 @@ A structured, daily Java coding journey focused on building strong programming f
 This repository documents my progress from beginner-level programs to advanced problem-solving, with consistent practice and meaningful Git commits.
 
 ---
-## 🌐 Connect With Me
-
-<p align="center">
-  <a href="https://sanketdev.vercel.app/">
-    <img src="https://img.shields.io/badge/🚀_VISIT_MY_PORTFOLIO-Sanket.Dev-6C63FF?style=for-the-badge&logo=vercel&logoColor=white" alt="Visit Sanket.Dev Portfolio" />
-  </a>
-</p>
-
-<p align="center">
-  Explore my portfolio, projects, technical skills, and development journey.
-  <br>
-  
-</p>
-
 
 ## ☕ Java Coding Progress
 
@@ -43,6 +29,20 @@ This repository documents my progress from beginner-level programs to advanced p
 <!-- JAVA_COUNTER_END -->
 
 > 🚀 One program at a time. Improving my Java skills every day!
+## 🌐 Connect With Me
+
+<p align="center">
+  <a href="https://sanketdev.vercel.app/">
+    <img src="https://img.shields.io/badge/🚀_VISIT_MY_PORTFOLIO-Sanket.Dev-6C63FF?style=for-the-badge&logo=vercel&logoColor=white" alt="Visit Sanket.Dev Portfolio" />
+  </a>
+</p>
+
+<p align="center">
+  Explore my portfolio, projects, technical skills, and development journey.
+  <br>
+  
+</p>
+
 
 
 ## 🎯 My Mission
@@ -75,8 +75,8 @@ This repository documents my progress from beginner-level programs to advanced p
 - [x] 05. Product of Digits
 - [x] 06. Reverse The Number
 - [x] 07. Palindrome Number
-- [ ] 10. Prime Number
-- [ ] 11. Fibonacci Series
+- [x] 10. Prime Number
+- [x] 11. Fibonacci Series
 - [ ] 12. Armstrong Number
 - [ ] 13. Perfect Number
 - [ ] 14. Find Factors of a Number
